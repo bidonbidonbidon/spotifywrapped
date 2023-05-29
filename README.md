@@ -30,7 +30,7 @@ Jako iż każda z tych cech była wyrażona w postaci macierzy o dość dużych 
 
 Wyzwaniem było zebranie odpowiedniej próbki danych, dlatego zdecydowałem się na stworzenie 3 różnych rodzajów zbioru danych. 1) Wektorów cech dla całego utworu, 2) Wektorów cech dla przedziału od 10 do 30 sekundy każdego utworu, 3) Wektorów cech dla całego utworu, ale już z wyodrębnioną ścieżką wokalną.
 W ten sposób utworzyłem 3 różne zbiory danych zapisywane w notatnikach w formacie xlsx.
-Kod służący do wizualizacji wydobycia cech i zapisania ich w plikach csv został umieszczony w zakładce **creating_dataset**.
+Kod służący do wizualizacji wydobycia cech i zapisania ich w plikach csv został umieszczony w zakładce **creating_dataset** oraz **creating_dataset_vocals**.
 
 **b)	Ostatnie kroki przed klasyfikacją**
 Zauważyłem, że podczas analizy unikatowych nazw zespołów jest ich więcej niż planowałem. Wynikało to z tego, że niektóre piosenki zespołu Coals były koprodukcjami z innymi artystami. Zamieniłem, więc wszystkie wyjątki, tak, by różnych typów etykiet faktycznie było 5. Ponadto zmieniłem wartości etykiet tekstowych na liczbowe, by zmapowany wektor wyjściowy nadawał się do nasycenia nim klasyfikatora.
