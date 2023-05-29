@@ -15,9 +15,9 @@ Jestem pasjonatem muzyki, a w roku 2022 wyznaczyłem sobie zadanie, by w każdy 
 
 Łącznie pobrałem 226 utworów tych 5 wykonawców (bez równego podziału) za pomocą Viwizard Music Convertor ze Spotify do formatu mp3. Chcąc zamienić pliki mp3. na liczbową reprezentację sygnałów dźwiękowych posłużyłem się pythonową biblioteką Librosa, stworzoną do analizy sygnałów dźwiękowych. W wyborze kierowałem się podobnymi projektami, skupiającymi się bardziej na rozpoznawaniu gatunków muzycznych. Za pomocą narzędzi w bibliotece, dla danego pliku mp3 wyciągnąłem cechy: krótkookresowej transformaty Fouriera (dalej chroma_stft), szerokości pasma spektralnego (dalej spectral_brandwidth), spektroidu centralnego (spectral_centroid), przejścia spektrum dźwiękowego (dalej spectral_rolloff), liczbę zmian znaku sygnału (dalej zero_crossing_rate) oraz 20 wskaźników widma dźwiękowego – mel-frequency cepstral coefficients (dalej jako mfcc).
 
-**Wizualizacja cech chroma_stft, spectral_brandwidth, spectral_centroid oraz spectral_rollof na podstawie 3 utorów**
+**Wizualizacja cech chroma_stft, spectral_brandwidth, spectral_centroid oraz spectral_rollof na podstawie 5 utorów**
 Kod służący do wizualizacji cech umieszczony został w zakładce **feature_visualisation**.
- ![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/3a0f9ca8-a5b2-4c80-8000-8cbe5d656690)
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/cd218695-b48f-439a-8359-57976830a45d)
 
 
 Jak widać wektory liczb służących do opisania cech (tych zwizualizowanych i nie) różnią się od siebie w zależności od piosenek, co wskazuje na istnienie różnic w numerycznej reprezentacji, i te różnice były podstawą do stworzenia mojego zbioru danych
