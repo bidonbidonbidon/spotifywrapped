@@ -196,11 +196,11 @@ Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.6573809523809
 **6. Analiza wyników i wnioski**
 
 
-1.	Najlepiej sprawdził się klasyfikator regresji logistycznej dla zbioru danych wyodrębnionej ścieżki wokalnej, przy redukcji macierzy wejściowej X do dwóch wymiarów algorytmem LDA, osiągając skutecznośc 72,14% klasyfikacji, przy 10 próbach walidacji krzyżowej 
-2.	Dla wielowymiarowej macierzy wejściowej X wyniki klasyfikatorów są bardziej zróżnicowane niż dla zredukowanej do dwóch wymiarów macierzy wejściowej X
+1.	Najlepiej sprawdził się klasyfikator wektorów nośnych dla zbioru danych wyodrębnionej ścieżki wokalnej, przy redukcji macierzy wejściowej X do dwóch wymiarów algorytmem LDA, osiągając skutecznośc 72,59% klasyfikacji, przy 10 próbach walidacji krzyżowej 
+2.	Dla wielowymiarowej macierzy wejściowej X jakość klasyfikacji dla 10 prób walidacji krzyżwoej jest zazwyczaj  gorsza niż dla zredukowanej do dwóch wymiarów macierzy wejściowej X
 3.	Najgorzej sprawiła się klasyfikacja dla przedziału od 10-tej do 30-tej sekundy utworów, w której wartości na każdym z klasyfikatorów dla 10 walidacji krzyżowych były średnio najniższe
-4.	Dla macierzy wejściowej X o 26 wymiarach przeważnie najlepiej sprawdzał się klasyfikator lasu losowego, a dla macierzy wejściowej X o 2 wymiarach przeważnie najlepiej sprawdzał się klasyfikator regresji logistycznej
-5.	Dla prawie każdego zbioru danych najgorzej sprawdzał się klasyfikator drzewa decyzyjnego
+4.	Dla macierzy wejściowej X o 26 wymiarach przeważnie najlepiej sprawdzał się klasyfikator lasu losowego, a dla macierzy wejściowej X o 2 wymiarach przeważnie najlepiej sprawdzały się klasyfikatory regresji logistycznej i maszyny wektorów nośnych
+5.	Dla prawie każdego zbioru danych (oprócz zbioru danych 20 sekundowego wycinku dla X o 26 wymiarach) najgorzej sprawdzał się klasyfikator drzewa decyzyjnego
 6.	Przy pojedynczej klasyfikacji łatwo zauważyć, że etykieta 3 (Radiohead) najczęściej mylona była z etykietą 2 (La femme). Może to wskazywać na istnienie faktycznej konotacji Radiohead z La Femme na płaszczyźnie elektronicznego brzmienia.
 7.	Z pewnością mogłem poszerzyć zbiór danych o całą dyskografię każdego zespołu i artysty, by zgromadzić więcej przykładów, co mogłoby wpłynąć na późniejszą jakość klasyfikacji.
 8.	Zamiast prób jedynie dla wielowymiarowego wektora X, mogłem przeprowadzić klasyfikację dla pośrednich mniejszych rozmiarów wektora cech wejściowych X, by sprawdzić, jak klasyfikator radzi sobie z mniej złożonym zbiorem danych wejściowych.
