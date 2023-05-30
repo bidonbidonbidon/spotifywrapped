@@ -42,6 +42,9 @@ Kod służący do opracowania zbioru danych umieszczony w zakładce **data_prepr
 **4. Klasyfikacja**
 
 
+Kod algorytmu klasyfikującego został umieszczony w zakładce **songs_classification**.
+
+
 Mam więc dwa różne wektory X. Jeden przetrzymuje 26 cech, drugi zawiera 2 cechy otrzymane z redukcji wymiarów algorytmem LDA
 Podzieliłem dane na zbiór testowy i treningowy. Zaimportowałem 6 klasyfikatorów – K Najbliższych sąsiadów, Drzewo Decyzyjne, Las Losowy, Maszynę Wektorów Stałych, Regresje Logistyczną i sieć neuronową XGBoost.
 Następnie, by oszczędzić czas, w jednej pętli przeprowadziłem klasyfikację dla jednego zbioru testowego i treningowego na każdym z sześciu klasyfikatorów, by uzyskać macierz pomyłek dla każdego z trzech zbiorów danych i każdego z dwóch rodzajów macierzy wejściowej X.
