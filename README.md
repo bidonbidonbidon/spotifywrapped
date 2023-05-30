@@ -64,121 +64,139 @@ Macierz pomyłek, dla pojedynczej klasyfikacji, na każdym klasyfikatorze, dla k
 
 Jedna klasyfikacja nie jest jednak miarodajna, dlatego zdecydowałem się przeprowadzić 10 prób walidacji krzyżowej. Dopiero dla uśrednionej wartości skuteczności 10 klasyfikacji dla danego klasyfikatora, mogłem dojść do bardziej wiarygodnych wyników. Jakoś klasyfikacji zwizualizowałem za pomocą wykresów
 
-
 KLASYFIKACJA DLA ZBIORU DANYCH: C:\Users\akr\wrapped_dataset_226.xlsx
-Próba dla Wektor X 26 cech
+
+Próba dla wektora X o 26 cechach
 
 
-Wynik dla klasyfikatora knn usredniony 10 prób krzyżowych: 0.7114285714285714
+Wynik dla klasyfikatora KNN usredniony 10 prób krzyżowych: 0.7061904761904761
 
-Wynik dla klasyfikatora dtc usredniony 10 prób krzyżowych: 0.5204761904761904
+Wynik dla klasyfikatora Decision Tree usredniony 10 prób krzyżowych: 0.54
 
-**Wynik dla klasyfikatora rfc usredniony 10 prób krzyżowych: 0.7359523809523809**
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/e665d773-249e-4421-a3f2-53c6d64420ba)
 
-Wynik dla klasyfikatora svc usredniony 10 prób krzyżowych: 0.7069047619047619
+Wynik dla klasyfikatora Random Forest usredniony 10 prób krzyżowych: 0.6869047619047619
 
-Wynik dla klasyfikatora logreg usredniony 10 prób krzyżowych: 0.7121428571428571
+Wynik dla klasyfikatora SVC usredniony 10 prób krzyżowych: 0.7014285714285713
 
-Wynik dla klasyfikatora xgb usredniony 10 prób krzyżowych: 0.6916666666666667
+Wynik dla klasyfikatora Logistic Regression usredniony 10 prób krzyżowych: 0.7016666666666667
 
-![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/b8a6ebb9-042f-4871-8b9e-08870ee79ee8)
+**Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.7071428571428572**
 
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/f1a7a244-bcac-48a5-af5d-5833d85ba7d0)
 
+--------------
 
 Próba dla Wektor X 2 cech po alg. LDA
 
 
-Wynik dla klasyfikatora knn usredniony 10 prób krzyżowych: 0.6321428571428571
+Wynik dla klasyfikatora KNN usredniony 10 prób krzyżowych: 0.6461904761904762
 
-Wynik dla klasyfikatora dtc usredniony 10 prób krzyżowych: 0.6073809523809524 
+Wynik dla klasyfikatora Decision Tree usredniony 10 prób krzyżowych: 0.5630952380952381
 
-Wynik dla klasyfikatora rfc usredniony 10 prób krzyżowych: 0.6323809523809524
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/bf577026-7695-44dd-be07-ebaa1fc209c9)
 
-Wynik dla klasyfikatora svc usredniony 10 prób krzyżowych: 0.6814285714285715
+Wynik dla klasyfikatora Random Forest usredniony 10 prób krzyżowych: 0.6326190476190476
 
-**Wynik dla klasyfikatora logreg usredniony 10 prób krzyżowych: 0.6964285714285714**
+Wynik dla klasyfikatora SVC usredniony 10 prób krzyżowych: 0.6666666666666667
 
-Wynik dla klasyfikatora xgb usredniony 10 prób krzyżowych: 0.6133333333333333
+**Wynik dla klasyfikatora Logistic Regression usredniony 10 prób krzyżowych: 0.7011904761904763**
 
-![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/fabbe0e4-1fed-4c83-88d7-815fa4daa49f)
+Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.618095238095238
 
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/69c17278-cb6c-422f-beef-24e2456556b1)
 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 KLASYFIKACJA DLA ZBIORU DANYCH: C:\Users\akr\wrapped_dataset_20s_226.xlsx
-Próba dla Wektor X 26 cech
 
-Wynik dla klasyfikatora knn usredniony 10 prób krzyżowych: 0.5245238095238095
+Próba dla 26D
 
-Wynik dla klasyfikatora dtc usredniony 10 prób krzyżowych: 0.41119047619047616
+Wynik dla klasyfikatora KNN usredniony 10 prób krzyżowych: 0.4616666666666666
 
-**Wynik dla klasyfikatora rfc usredniony 10 prób krzyżowych: 0.5388095238095238**
+Wynik dla klasyfikatora Decision Tree usredniony 10 prób krzyżowych: 0.43666666666666665
 
-Wynik dla klasyfikatora svc usredniony 10 prób krzyżowych: 0.4988095238095238
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/ced5af70-6528-4bae-8b70-b132b90fd6a0)
 
-Wynik dla klasyfikatora logreg usredniony 10 prób krzyżowych: 0.49952380952380954
+**Wynik dla klasyfikatora Random Forest usredniony 10 prób krzyżowych: 0.5161904761904761**
 
-Wynik dla klasyfikatora xgb usredniony 10 prób krzyżowych: 0.5142857142857143
+Wynik dla klasyfikatora SVC usredniony 10 prób krzyżowych: 0.4809523809523809
 
-![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/c2b4f922-2b4f-4acc-bfd6-cfcbdb57e1e2)
+Wynik dla klasyfikatora Logistic Regression usredniony 10 prób krzyżowych: 0.4754761904761904
 
+Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.49499999999999994
 
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/bb572162-597f-49fd-a50c-0255aa55df8a)
 
-Próba dla Wektor X 2 cech po alg. LDA
+--------------
 
-Wynik dla klasyfikatora knn usredniony 10 prób krzyżowych: 0.5335714285714286
+Próba dla 2D LDA
 
-Wynik dla klasyfikatora dtc usredniony 10 prób krzyżowych: 0.5147619047619048
+Wynik dla klasyfikatora KNN usredniony 10 prób krzyżowych: 0.5349999999999999
 
-Wynik dla klasyfikatora rfc usredniony 10 prób krzyżowych: 0.5397619047619047
+Wynik dla klasyfikatora Decision Tree usredniony 10 prób krzyżowych: 0.5397619047619048
 
-**Wynik dla klasyfikatora svc usredniony 10 prób krzyżowych: 0.6314285714285715**
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/ee802a52-3353-4406-bf6b-8c0378b70dbb)
 
-Wynik dla klasyfikatora logreg usredniony 10 prób krzyżowych: 0.621904761904762
+Wynik dla klasyfikatora Random Forest usredniony 10 prób krzyżowych: 0.5692857142857143
 
-Wynik dla klasyfikatora xgb usredniony 10 prób krzyżowych: 0.5390476190476192
+Wynik dla klasyfikatora SVC usredniony 10 prób krzyżowych: 0.6126190476190475
 
-![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/f426851a-c285-4e96-86a1-b43023ed26fa)
+**Wynik dla klasyfikatora Logistic Regression usredniony 10 prób krzyżowych: 0.6371428571428571**
 
+Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.5685714285714286
+
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/cef864d9-18a9-4f17-b8cb-af2f2b75d72a)
+
+--------------
 
 KLASYFIKACJA DLA ZBIORU DANYCH: C:\Users\akr\wrapped_dataset_vocal_226.xlsx
-Próba dla Wektor X 26 cech
 
-**Wynik dla klasyfikatora knn usredniony 10 prób krzyżowych: 0.6766666666666666**
+Próba dla 26D
 
-Wynik dla klasyfikatora dtc usredniony 10 prób krzyżowych: 0.5011904761904762
+Wynik dla klasyfikatora KNN usredniony 10 prób krzyżowych: 0.638095238095238
 
-Wynik dla klasyfikatora rfc usredniony 10 prób krzyżowych: 0.6421428571428571
+Wynik dla klasyfikatora Decision Tree usredniony 10 prób krzyżowych: 0.47619047619047616
 
-Wynik dla klasyfikatora svc usredniony 10 prób krzyżowych: 0.6440476190476191
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/f7e17475-cdd2-47bc-a73b-ea38eec3b35a)
 
-Wynik dla klasyfikatora logreg usredniony 10 prób krzyżowych: 0.6673809523809524
+Wynik dla klasyfikatora Random Forest usredniony 10 prób krzyżowych: 0.6721428571428572
 
-Wynik dla klasyfikatora xgb usredniony 10 prób krzyżowych: 0.6673809523809523
+Wynik dla klasyfikatora SVC usredniony 10 prób krzyżowych: 0.6483333333333333
 
-![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/fcdf3c35-c3bc-4f25-88a3-1d3de8d6d536)
+Wynik dla klasyfikatora Logistic Regression usredniony 10 prób krzyżowych: 0.6721428571428572
 
+**Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.6864285714285713**
 
-Próba dla Wektor X 2 cech po alg. LDA
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/053dc552-84b4-4273-b692-f8eeed57050b)
 
-Wynik dla klasyfikatora knn usredniony 10 prób krzyżowych: 0.6828571428571429
+--------------
 
-Wynik dla klasyfikatora dtc usredniony 10 prób krzyżowych: 0.6445238095238095
+Próba dla 2D LDA
 
-Wynik dla klasyfikatora rfc usredniony 10 prób krzyżowych: 0.6880952380952381
+Wynik dla klasyfikatora KNN usredniony 10 prób krzyżowych: 0.6711904761904762
 
-Wynik dla klasyfikatora svc usredniony 10 prób krzyżowych: 0.7269047619047619
+Wynik dla klasyfikatora Decision Tree usredniony 10 prób krzyżowych: 0.6719047619047619
 
-**Wynik dla klasyfikatora logreg usredniony 10 prób krzyżowych: 0.7414285714285713**
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/93375a43-bb31-49ec-a119-3dbe92262ddc)
 
-Wynik dla klasyfikatora xgb usredniony 10 prób krzyżowych: 0.6480952380952381
+Wynik dla klasyfikatora Random Forest usredniony 10 prób krzyżowych: 0.6866666666666668
 
-![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/bd170278-05fc-4255-a563-9e27f3c7bedb)
+**Wynik dla klasyfikatora SVC usredniony 10 prób krzyżowych: 0.7259523809523809**
+
+Wynik dla klasyfikatora Logistic Regression usredniony 10 prób krzyżowych: 0.7211904761904762
+
+Wynik dla klasyfikatora XGBoost usredniony 10 prób krzyżowych: 0.6573809523809524
+
+![image](https://github.com/bidonbidonbidon/spotifywrapped/assets/134869902/8a341ee0-ddc4-4d43-8ac2-f1b270e4960c)
+
+--------------
 
 
 **6. Analiza wyników i wnioski**
 
 
-1.	Najlepiej sprawdził się klasyfikator regresji logistycznej dla zbioru danych wyodrębnionej ścieżki wokalnej, przy redukcji macierzy wejściowej X do dwóch wymiarów algorytmem LDA, osiągając skutecznośc 74,14% klasyfikacji, przy 10 próbach walidacji krzyżowej 
+1.	Najlepiej sprawdził się klasyfikator regresji logistycznej dla zbioru danych wyodrębnionej ścieżki wokalnej, przy redukcji macierzy wejściowej X do dwóch wymiarów algorytmem LDA, osiągając skutecznośc 72,14% klasyfikacji, przy 10 próbach walidacji krzyżowej 
 2.	Dla wielowymiarowej macierzy wejściowej X wyniki klasyfikatorów są bardziej zróżnicowane niż dla zredukowanej do dwóch wymiarów macierzy wejściowej X
 3.	Najgorzej sprawiła się klasyfikacja dla przedziału od 10-tej do 30-tej sekundy utworów, w której wartości na każdym z klasyfikatorów dla 10 walidacji krzyżowych były średnio najniższe
 4.	Dla macierzy wejściowej X o 26 wymiarach przeważnie najlepiej sprawdzał się klasyfikator lasu losowego, a dla macierzy wejściowej X o 2 wymiarach przeważnie najlepiej sprawdzał się klasyfikator regresji logistycznej
